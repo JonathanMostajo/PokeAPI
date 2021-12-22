@@ -18,8 +18,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 70%;
-  margin-left: 15%;
   margin-top: 100px;
 }
 
@@ -31,10 +29,24 @@ body {
   margin-top: 100px;
 }
 
-.pikachu{
-  width: 100px;
+
+.buscador{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.pbuscador{
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 3px 3px black;
+}
+.input{
+  margin: 20px;
+  width: 30%;
+  box-shadow: 2px 2px black;
+}
 .card {
   border: #b8860b 3px solid;
   display: flex;
@@ -71,4 +83,12 @@ body {
 .stats {
   margin: 5px;
   margin-bottom: 10px;
+}
+
+.weight{
+  align-items: center;
+}
+
+.pikagif{
+  width: 70px;
 }
